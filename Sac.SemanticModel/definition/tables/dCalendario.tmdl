@@ -1,0 +1,44 @@
+table dCalendario
+	lineageTag: 9d1209e5-22c8-4618-8db6-b39c4fe67246
+
+	column Data
+		formatString: Short Date
+		lineageTag: a1996711-bcbf-4e00-94fc-e657ff384e02
+		summarizeBy: none
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: e85bf881-2471-4f4e-8f35-aff9c97f1c8b
+			defaultHierarchy: LocalDateTable_0ab8e318-5c7e-4fec-bd8b-e50c916cf8cb.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Ano = dCalendario[Data].[Ano]
+		formatString: 0
+		lineageTag: 5996817b-d301-486b-aaf8-9b2979c39946
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes = dCalendario[Data].[MonthNo]
+		formatString: 0
+		lineageTag: ce5b5392-2050-47e1-b3e4-659deb6426ce
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nome do Mes' = dCalendario[Data].[Mês]
+		lineageTag: 627f8faa-f516-4278-8a4e-ebdb93654e6c
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dCalendario = calculated
+		mode: import
+		source = CALENDAR(DATE(2017, 01, 01), DATE(2021, 12, 31))
+
+	annotation PBI_Id = fd1b967d6bd044f9977c146de62181e9
+

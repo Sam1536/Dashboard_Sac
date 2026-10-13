@@ -1,0 +1,86 @@
+table fOcorrencias4
+	lineageTag: 6cd7b369-ded6-4acf-b211-21276ebb24d9
+
+	column 'Data Chamado'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c1c6a800-e176-4e5c-b414-7df4e528dc73
+		summarizeBy: none
+		sourceColumn: Data Chamado
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Data Resposta'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: dcaf09d8-485b-439d-ad23-e239d76a39a4
+		summarizeBy: none
+		sourceColumn: Data Resposta
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Tempo Resposta (s)'
+		dataType: double
+		lineageTag: 9a2af3d2-a51c-41fa-9e66-1a46a59ba9b4
+		summarizeBy: sum
+		sourceColumn: Tempo Resposta (s)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'ID Usuario'
+		dataType: int64
+		formatString: 0
+		lineageTag: f08e41e6-c561-4132-addb-bc3c1688ec04
+		summarizeBy: none
+		sourceColumn: ID Usuario
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID Suporte'
+		dataType: int64
+		formatString: 0
+		lineageTag: c5fc88cf-c411-4d03-8104-36f865591643
+		summarizeBy: none
+		sourceColumn: ID Suporte
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID Problema'
+		dataType: int64
+		formatString: 0
+		lineageTag: 27e2e662-a5f8-44c1-bd8f-057aca5a402e
+		summarizeBy: none
+		sourceColumn: ID Problema
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: b38d5a47-0ee1-418d-906f-7c0faea5805e
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fOcorrencias4 = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\a-agn\Documents\PoweBi Exercícios e Outros\PowerBI_Impressionador_Hashtag_2023 Materia\Importação e Tratamento de BD-Power Query\Biblioteca Relatórios\4 - SAC\Base SAC.xlsx"), null, true),
+				    fOcorrencias_Table = Fonte{[Item="fOcorrencias",Kind="Table"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(fOcorrencias_Table,{{"Data Chamado", type date}, {"Data Resposta", type date}, {"Tempo Resposta (s)", type datetime}, {"ID Usuario", Int64.Type}, {"ID Suporte", Int64.Type}, {"ID Problema", Int64.Type}, {"Status", type text}}),
+				    #"Horário Extraído" = Table.TransformColumns(#"Tipo Alterado",{{"Tempo Resposta (s)", DateTime.Time, type time}}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Horário Extraído",{{"Tempo Resposta (s)", type number}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

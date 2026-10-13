@@ -1,0 +1,32 @@
+table dProblema3
+	lineageTag: d6268842-c7bd-4c3b-8062-aceea85f8282
+
+	column 'ID problema'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7d67dbc9-c6b8-4f7a-b5ab-703e25693929
+		summarizeBy: none
+		sourceColumn: ID problema
+
+		annotation SummarizationSetBy = Automatic
+
+	column Problema
+		dataType: string
+		lineageTag: 31c95119-228a-4377-8423-999312e1e3ab
+		summarizeBy: none
+		sourceColumn: Problema
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dProblema3 = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\a-agn\Documents\PoweBi Exercícios e Outros\PowerBI_Impressionador_Hashtag_2023 Materia\Importação e Tratamento de BD-Power Query\Biblioteca Relatórios\4 - SAC\Base SAC.xlsx"), null, true),
+				    dProblema_Table = Fonte{[Item="dProblema",Kind="Table"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(dProblema_Table,{{"ID problema", Int64.Type}, {"Problema", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

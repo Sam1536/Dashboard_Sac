@@ -1,0 +1,5948 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "entity__medida.tempo_médio_de_atendimento_macete": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Tempo Médio de Atendimento (Macete)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo médio de atendimento (macete)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tempo médio de atendimento": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Tempo Total de Atendimento": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "d_problema_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProblema3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d problema 3": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dProblema3": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_problema_3.ID_problema": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProblema3",
+			          "ConceptualProperty": "ID problema"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID problema": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification problema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity problema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier problema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential problema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_problema_3.problema": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProblema3",
+			          "ConceptualProperty": "Problema"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "problema": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Top 5 Problemas do Mês": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d suporte 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dSuporte2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2.ID_suporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "ConceptualProperty": "ID Suporte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID suporte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification suporte": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity suporte": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier suporte": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential suporte": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2.nome_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "ConceptualProperty": "Nome Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2.sexo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "ConceptualProperty": "Sexo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sexo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2.data_de_nascimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "ConceptualProperty": "Data de Nascimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data de nascimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "d_suporte_2.data_de_nascimento.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2.data_de_nascimento.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2.data_de_nascimento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2.data_de_nascimento.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_suporte_2.data_de_nascimento.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dSuporte2",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d usuario 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dUsuario1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.ID_usuario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "ConceptualProperty": "ID Usuario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID usuario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification usuario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity usuario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier usuario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential usuario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.nome_usuario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "ConceptualProperty": "Nome Usuario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome usuario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.sexo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "ConceptualProperty": "Sexo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sexo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_nascimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "ConceptualProperty": "Data de Nascimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data de nascimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record de nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "d_usuario_1.data_de_nascimento.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_nascimento.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_nascimento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_nascimento.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_nascimento.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de Nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de nascimento dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_inscrição": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "ConceptualProperty": "Data de inscrição"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data de inscrição": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information de inscrição": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact de inscrição": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info de inscrição": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic de inscrição": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document de inscrição": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure de inscrição": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record de inscrição": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "d_usuario_1.data_de_inscrição.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de inscrição",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_inscrição.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de inscrição",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de inscrição ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de inscrição ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de inscrição ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de inscrição ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de inscrição ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de inscrição ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de inscrição ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de inscrição ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_inscrição.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de inscrição",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de inscrição trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de inscrição trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de inscrição trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de inscrição trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de inscrição trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de inscrição trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de inscrição trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de inscrição trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_inscrição.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de inscrição",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de inscrição mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de inscrição mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de inscrição mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de inscrição mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de inscrição mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de inscrição mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de inscrição mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de inscrição mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_usuario_1.data_de_inscrição.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUsuario1",
+			          "VariationSource": "Data de inscrição",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data de inscrição dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information de inscrição dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact de inscrição dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info de inscrição dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic de inscrição dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document de inscrição dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure de inscrição dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record de inscrição dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fOcorrencias4"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "f ocorrencias 4": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "f ocorrencia 4": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "fOcorrencias4": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4.data_chamado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fOcorrencias4",
+			          "ConceptualProperty": "Data Chamado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data chamado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information chamado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact chamado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info chamado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic chamado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document chamado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure chamado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record chamado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "f_ocorrencias_4.data_resposta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fOcorrencias4",
+			          "ConceptualProperty": "Data Resposta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data resposta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information resposta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact resposta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info resposta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic resposta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document resposta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure resposta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record resposta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "f_ocorrencias_4.tempo_resposta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fOcorrencias4",
+			          "ConceptualProperty": "Tempo Resposta (s)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo resposta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tempo resposta (s)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "second",
+			        "s"
+			      ]
+			    },
+			    "f_ocorrencias_4.ID_usuario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fOcorrencias4",
+			          "ConceptualProperty": "ID Usuario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID usuario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification usuario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity usuario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier usuario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential usuario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4.ID_suporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fOcorrencias4",
+			          "ConceptualProperty": "ID Suporte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID suporte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification suporte": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity suporte": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier suporte": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential suporte": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4.ID_problema": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fOcorrencias4",
+			          "ConceptualProperty": "ID Problema"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID problema": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification problema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity problema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier problema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential problema": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fOcorrencias4",
+			          "ConceptualProperty": "Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d calendario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dCalendario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "d_calendario.data.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.nome_do_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Nome do Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.chamados_respondidos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Chamados Respondidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chamados respondidos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.chamados_abertos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Chamados Abertos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chamados abertos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.média_tempo_atendimento_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Média Tempo Atendimento Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média tempo atendimento total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "média tempo atendimento aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "média tempo atendimento overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.média_de_respostas_diária": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Média de Respostas Diária"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média de respostas diária": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.média_de_chamados_diária": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Média de Chamados Diária"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média de chamados diária": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.tempo_médio_de_resposta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Tempo Médio de resposta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo médio de resposta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.tempo_total_de_atendimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Tempo Total de Atendimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo total de atendimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tempo aggregate de atendimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "tempo overall de atendimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.tempo_médio_de_atendimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Tempo Médio de Atendimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo médio de atendimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Média": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "d_calendario_data_mê_has_d_calendario_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.data.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.data.mê"
+			          }
+			        },
+			        "d_calendario.data.dia": {
+			          "Target": {
+			            "Entity": "d_calendario.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.mê"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.dia"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_calendario.data.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_calendario.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê3"
+			        }
+			      ]
+			    },
+			    "d_calendario_data_trimestre_has_d_calendario_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.data.trimestre": {
+			          "Target": {
+			            "Entity": "d_calendario.data.trimestre"
+			          }
+			        },
+			        "d_calendario.data.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.mê"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_calendario.data.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_calendario.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "d_calendario_data_ano_has_d_calendario_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.data.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.data.ano"
+			          }
+			        },
+			        "d_calendario.data.trimestre": {
+			          "Target": {
+			            "Entity": "d_calendario.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.ano"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_calendario.data.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_calendario.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos3"
+			        }
+			      ]
+			    },
+			    "d_calendario_data_hierarquia_de_data_has_d_calendario_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.data.hierarquia_de_data"
+			          }
+			        },
+			        "d_calendario.data.dia": {
+			          "Target": {
+			            "Entity": "d_calendario.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "d_calendario_data_hierarquia_de_data_has_d_calendario_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.data.hierarquia_de_data"
+			          }
+			        },
+			        "d_calendario.data.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "d_calendario_data_hierarquia_de_data_has_d_calendario_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.data.hierarquia_de_data"
+			          }
+			        },
+			        "d_calendario.data.trimestre": {
+			          "Target": {
+			            "Entity": "d_calendario.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "d_calendario_data_hierarquia_de_data_has_d_calendario_data_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.data.hierarquia_de_data"
+			          }
+			        },
+			        "d_calendario.data.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.data.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "d_calendario_data_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.data": {
+			          "Target": {
+			            "Entity": "d_calendario.data"
+			          }
+			        },
+			        "d_calendario.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.data.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_inscrição_mê_has_d_usuario_1_data_de_inscrição_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_inscrição.mê": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.mê"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição.dia": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.mê"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.dia"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_inscrição_trimestre_has_d_usuario_1_data_de_inscrição_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_inscrição.trimestre": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.trimestre"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição.mê": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.mê"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_inscrição_ano_has_d_usuario_1_data_de_inscrição_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_inscrição.ano": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.ano"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição.trimestre": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.ano"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_inscrição_hierarquia_de_data_has_d_usuario_1_data_de_inscrição_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_inscrição.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição.dia": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_inscrição_hierarquia_de_data_has_d_usuario_1_data_de_inscrição_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_inscrição.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição.mê": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_inscrição_hierarquia_de_data_has_d_usuario_1_data_de_inscrição_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_inscrição.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição.trimestre": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_inscrição_hierarquia_de_data_has_d_usuario_1_data_de_inscrição_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_inscrição.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição.ano": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_inscrição_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_inscrição": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_inscrição"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_de_inscriçãos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_nascimento_mê_has_d_usuario_1_data_de_nascimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.mê"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento.dia": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.mê"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.dia"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_nascimento_trimestre_has_d_usuario_1_data_de_nascimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.trimestre"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.mê"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_nascimento_ano_has_d_usuario_1_data_de_nascimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_nascimento.ano": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.ano"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.ano"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_nascimento_hierarquia_de_data_has_d_usuario_1_data_de_nascimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento.dia": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_nascimento_hierarquia_de_data_has_d_usuario_1_data_de_nascimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_nascimento_hierarquia_de_data_has_d_usuario_1_data_de_nascimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_nascimento_hierarquia_de_data_has_d_usuario_1_data_de_nascimento_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento.ano": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_data_de_nascimento_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1.data_de_nascimento": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1.data_de_nascimento"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_de_nascimentos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_data_de_nascimento_mê_has_d_suporte_2_data_de_nascimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.mê"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento.dia": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.mê"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.dia"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_data_de_nascimento_trimestre_has_d_suporte_2_data_de_nascimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.trimestre"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.mê"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_data_de_nascimento_ano_has_d_suporte_2_data_de_nascimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2.data_de_nascimento.ano": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.ano"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.ano"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_data_de_nascimento_hierarquia_de_data_has_d_suporte_2_data_de_nascimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento.dia": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias3"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_data_de_nascimento_hierarquia_de_data_has_d_suporte_2_data_de_nascimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento.mê": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê3"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_data_de_nascimento_hierarquia_de_data_has_d_suporte_2_data_de_nascimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_data_de_nascimento_hierarquia_de_data_has_d_suporte_2_data_de_nascimento_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento.ano": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos3"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_data_de_nascimento_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2.data_de_nascimento": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2.data_de_nascimento"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_de_nascimentos_have_hierarquia_de_data1"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_d_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_d_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "f_ocorrencias_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_f_ocorrencias_4"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_d_usuario_1": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "d_usuario_1": {
+			          "Target": {
+			            "Entity": "d_usuario_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_d_usuario_1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1"
+			            },
+			            "Object": {
+			              "Role": "f_ocorrencias_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_usuario_1_have_f_ocorrencias_4"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_d_suporte_2": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "d_suporte_2": {
+			          "Target": {
+			            "Entity": "d_suporte_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_d_suporte_2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2"
+			            },
+			            "Object": {
+			              "Role": "f_ocorrencias_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_suporte_2_have_f_ocorrencias_4"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_d_problema_3": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "d_problema_3": {
+			          "Target": {
+			            "Entity": "d_problema_3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "d_problema_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_d_problema_3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_problema_3"
+			            },
+			            "Object": {
+			              "Role": "f_ocorrencias_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_problema_3_have_f_ocorrencias_4"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_tempo_médio_de_atendimento": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.tempo_médio_de_atendimento": {
+			          "Target": {
+			            "Entity": "entity__medida.tempo_médio_de_atendimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.tempo_médio_de_atendimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_tempo_médio_de_atendimento"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_tempo_total_de_atendimento": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.tempo_total_de_atendimento": {
+			          "Target": {
+			            "Entity": "entity__medida.tempo_total_de_atendimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.tempo_total_de_atendimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_tempo_total_de_atendimento"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_tempo_médio_de_resposta": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.tempo_médio_de_resposta": {
+			          "Target": {
+			            "Entity": "entity__medida.tempo_médio_de_resposta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.tempo_médio_de_resposta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_tempo_médio_de_resposta"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_média_de_chamados_diária": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.média_de_chamados_diária": {
+			          "Target": {
+			            "Entity": "entity__medida.média_de_chamados_diária"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.média_de_chamados_diária"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_média_de_chamados_diária"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_média_de_respostas_diária": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.média_de_respostas_diária": {
+			          "Target": {
+			            "Entity": "entity__medida.média_de_respostas_diária"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.média_de_respostas_diária"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_média_de_respostas_diária"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_média_tempo_atendimento_total": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.média_tempo_atendimento_total": {
+			          "Target": {
+			            "Entity": "entity__medida.média_tempo_atendimento_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.média_tempo_atendimento_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_média_tempo_atendimento_total"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_chamados_abertos": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.chamados_abertos": {
+			          "Target": {
+			            "Entity": "entity__medida.chamados_abertos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.chamados_abertos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_chamados_abertos"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_chamados_respondidos": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.chamados_respondidos": {
+			          "Target": {
+			            "Entity": "entity__medida.chamados_respondidos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.chamados_respondidos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_chamados_respondidos"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_nome_do_me": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.nome_do_me": {
+			          "Target": {
+			            "Entity": "d_calendario.nome_do_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.nome_do_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_nome_do_me"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.me": {
+			          "Target": {
+			            "Entity": "d_calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_anos"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.data": {
+			          "Target": {
+			            "Entity": "d_calendario.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_data"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "f_ocorrencias_4.status": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "f_ocorrencias_4.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_statuses"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_tempo_resposta": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "f_ocorrencias_4.tempo_resposta": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4.tempo_resposta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "f_ocorrencias_4.tempo_resposta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_tempo_respostas"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_data_resposta": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "f_ocorrencias_4.data_resposta": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4.data_resposta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "f_ocorrencias_4.data_resposta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_data_respostas"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_data_chamado": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "f_ocorrencias_4.data_chamado": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4.data_chamado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "f_ocorrencias_4.data_chamado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_data_chamados"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_has_data_de_inscrição": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1": {
+			          "Target": {
+			            "Entity": "d_usuario_1"
+			          }
+			        },
+			        "d_usuario_1.data_de_inscrição": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_inscrição"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_inscrição"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_usuario_1_have_data_de_inscriçãos"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_has_data_de_nascimento": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1": {
+			          "Target": {
+			            "Entity": "d_usuario_1"
+			          }
+			        },
+			        "d_usuario_1.data_de_nascimento": {
+			          "Target": {
+			            "Entity": "d_usuario_1.data_de_nascimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.data_de_nascimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_usuario_1_have_data_de_nascimentos"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_has_sexo": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1": {
+			          "Target": {
+			            "Entity": "d_usuario_1"
+			          }
+			        },
+			        "d_usuario_1.sexo": {
+			          "Target": {
+			            "Entity": "d_usuario_1.sexo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.sexo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_usuario_1_have_sexos"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_has_nome_usuario": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1": {
+			          "Target": {
+			            "Entity": "d_usuario_1"
+			          }
+			        },
+			        "d_usuario_1.nome_usuario": {
+			          "Target": {
+			            "Entity": "d_usuario_1.nome_usuario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.nome_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_usuario_1_have_nome_usuarios"
+			        }
+			      ]
+			    },
+			    "d_usuario_1_has_ID_usuario": {
+			      "Binding": {
+			        "ConceptualEntity": "dUsuario1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_usuario_1": {
+			          "Target": {
+			            "Entity": "d_usuario_1"
+			          }
+			        },
+			        "d_usuario_1.ID_usuario": {
+			          "Target": {
+			            "Entity": "d_usuario_1.ID_usuario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_usuario_1"
+			            },
+			            "Object": {
+			              "Role": "d_usuario_1.ID_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_usuario_1_have_ID_usuarios"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_has_data_de_nascimento": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2": {
+			          "Target": {
+			            "Entity": "d_suporte_2"
+			          }
+			        },
+			        "d_suporte_2.data_de_nascimento": {
+			          "Target": {
+			            "Entity": "d_suporte_2.data_de_nascimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.data_de_nascimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_suporte_2_have_data_de_nascimentos"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_has_sexo": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2": {
+			          "Target": {
+			            "Entity": "d_suporte_2"
+			          }
+			        },
+			        "d_suporte_2.sexo": {
+			          "Target": {
+			            "Entity": "d_suporte_2.sexo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.sexo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_suporte_2_have_sexos"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_has_nome_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2": {
+			          "Target": {
+			            "Entity": "d_suporte_2"
+			          }
+			        },
+			        "d_suporte_2.nome_cliente": {
+			          "Target": {
+			            "Entity": "d_suporte_2.nome_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.nome_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_suporte_2_have_nome_clientes"
+			        }
+			      ]
+			    },
+			    "d_suporte_2_has_ID_suporte": {
+			      "Binding": {
+			        "ConceptualEntity": "dSuporte2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_suporte_2": {
+			          "Target": {
+			            "Entity": "d_suporte_2"
+			          }
+			        },
+			        "d_suporte_2.ID_suporte": {
+			          "Target": {
+			            "Entity": "d_suporte_2.ID_suporte"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_suporte_2"
+			            },
+			            "Object": {
+			              "Role": "d_suporte_2.ID_suporte"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_suporte_2_have_ID_suportes"
+			        }
+			      ]
+			    },
+			    "d_problema_3_has_problema": {
+			      "Binding": {
+			        "ConceptualEntity": "dProblema3"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_problema_3": {
+			          "Target": {
+			            "Entity": "d_problema_3"
+			          }
+			        },
+			        "d_problema_3.problema": {
+			          "Target": {
+			            "Entity": "d_problema_3.problema"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_problema_3"
+			            },
+			            "Object": {
+			              "Role": "d_problema_3.problema"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_problema_3_have_problemas"
+			        }
+			      ]
+			    },
+			    "d_problema_3_has_ID_problema": {
+			      "Binding": {
+			        "ConceptualEntity": "dProblema3"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_problema_3": {
+			          "Target": {
+			            "Entity": "d_problema_3"
+			          }
+			        },
+			        "d_problema_3.ID_problema": {
+			          "Target": {
+			            "Entity": "d_problema_3.ID_problema"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_problema_3"
+			            },
+			            "Object": {
+			              "Role": "d_problema_3.ID_problema"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_problema_3_have_ID_problemas"
+			        }
+			      ]
+			    },
+			    "f_ocorrencias_4_has_entity__medida_tempo_médio_de_atendimento_macete": {
+			      "Binding": {
+			        "ConceptualEntity": "fOcorrencias4"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_ocorrencias_4": {
+			          "Target": {
+			            "Entity": "f_ocorrencias_4"
+			          }
+			        },
+			        "entity__medida.tempo_médio_de_atendimento_macete": {
+			          "Target": {
+			            "Entity": "entity__medida.tempo_médio_de_atendimento_macete"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_ocorrencias_4"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.tempo_médio_de_atendimento_macete"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_ocorrencias_4_have_tempo_médio_de_atendimento_macete"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

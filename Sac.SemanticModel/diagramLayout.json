@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 56.999999999999972,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 573.597669764817,
+            "y": 10.382121771153958
+          },
+          "nodeIndex": "dProblema3",
+          "nodeLineageTag": "d6268842-c7bd-4c3b-8062-aceea85f8282",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 856.18987705539359,
+            "y": 10.059452460342545
+          },
+          "nodeIndex": "dSuporte2",
+          "nodeLineageTag": "6336bbf0-2bf5-4c8b-863b-a85764a2b5d7",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 297.99999999999989,
+            "y": 0
+          },
+          "nodeIndex": "dUsuario1",
+          "nodeLineageTag": "e78850f5-4536-471c-98a7-bc01f604c2b2",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 436.53527300045562,
+            "y": 322
+          },
+          "nodeIndex": "fOcorrencias4",
+          "nodeLineageTag": "6cd7b369-ded6-4acf-b211-21276ebb24d9",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 8.5265128291212022E-14
+          },
+          "nodeIndex": "dCalendario",
+          "nodeLineageTag": "9d1209e5-22c8-4618-8db6-b39c4fe67246",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1140.1898770553935,
+            "y": 233
+          },
+          "nodeIndex": "_Medidas",
+          "nodeLineageTag": "872e500a-e53e-4cd2-9906-227718608c90",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100.00000000000004,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

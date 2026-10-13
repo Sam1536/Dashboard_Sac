@@ -1,0 +1,121 @@
+table _Medidas
+	lineageTag: 872e500a-e53e-4cd2-9906-227718608c90
+
+	measure 'Chamados Respondidos' = COUNT(fOcorrencias4[Data Resposta])
+		formatString: 0
+		lineageTag: 308b36f1-800b-4d2a-956d-ad364a41421e
+
+	measure 'Chamados Abertos' =
+			
+			CALCULATE(
+			    COUNT(
+			        fOcorrencias4[Data Chamado]),
+			        USERELATIONSHIP(
+			            dCalendario[Data],
+			            fOcorrencias4[Data Chamado]
+			            )
+			)
+		formatString: 0
+		lineageTag: c15dce10-2e10-4683-9f8e-b380d0be11cc
+
+	measure 'Média Tempo Atendimento Total' = AVERAGE(fOcorrencias4[Tempo Resposta (s)]) * 24 * 60
+		lineageTag: 8f8c8f5e-2d7d-40fa-923e-b8c87d995968
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Média de Respostas Diária' = ```
+			
+			 var vDias_Trabalhados = DISTINCTCOUNT(fOcorrencias4[Data Resposta])
+			RETURN
+			DIVIDE([Chamados Respondidos], vDias_Trabalhados) 
+			```
+		formatString: 0
+		lineageTag: f649a270-5501-477a-8fe6-f30f5bbaf87f
+
+	measure 'Média de Chamados Diária' = ```
+			
+			 var vDias_Trabalhados = CALCULATE(
+			    DISTINCTCOUNT(
+			        fOcorrencias4[Data Chamado]),
+			        USERELATIONSHIP(dCalendario[Data],fOcorrencias4[Data Chamado])
+			 )
+			RETURN
+			DIVIDE([Chamados Abertos], vDias_Trabalhados) 
+			```
+		lineageTag: 81d92e2f-cc14-4ffe-9ffd-cb8888c7c075
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Tempo Médio de resposta' = ```
+			
+			 AVERAGEX(
+			    fOcorrencias4,
+			    fOcorrencias4[Data Resposta] - fOcorrencias4[Data Chamado]
+			    )
+			```
+		lineageTag: a974aeb0-0aff-46b8-b19a-d4fa558e2b31
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Tempo Total de Atendimento' = ```
+			
+			var vTempo_Total = SUM(fOcorrencias4[Tempo Resposta (s)])
+			var vDias_Inteiros = INT(vTempo_Total) // Total de Dias
+			var vHoras_Restantes = (vTempo_Total - vDias_Inteiros) * 24
+			var vHoras_Inteiras = INT(vHoras_Restantes) // Total de Horas
+			var vMinutos_Restantes = (vHoras_Restantes - vHoras_Inteiras) * 60
+			var vMinutos_Inteiros = INT(VMinutos_Restantes)// Total de Minutos
+			var vSegundos_Restantes =  (VMinutos_Restantes - VMinutos_Inteiros ) * 60
+			var vSegundos_Inteiros = ROUND(vSegundos_Restantes, 0) // Total de Segundos
+			RETURN
+			"Tempo Total de Atendimento: " & FORMAT(vDias_Inteiros,"00") & "d " & 
+			FORMAT(vHoras_Inteiras,"00") & "h " & FORMAT(vMinutos_Inteiros,"00") & "m " & 
+			FORMAT(vSegundos_Inteiros,"00") & "s "
+			```
+		lineageTag: 02fe400f-dd6c-48ef-88e1-b426adabcfda
+
+	measure 'Tempo Médio de Atendimento' = ```
+			
+			var vTempo_Total = AVERAGE(fOcorrencias4[Tempo Resposta (s)])
+			var vDias_Inteiros = INT(vTempo_Total) // Total de Dias
+			var vHoras_Restantes = (vTempo_Total - vDias_Inteiros) * 24
+			var vHoras_Inteiras = INT(vHoras_Restantes) // Total de Horas
+			var vMinutos_Restantes = (vHoras_Restantes - vHoras_Inteiras) * 60
+			var vMinutos_Inteiros = INT(VMinutos_Restantes)// Total de Minutos
+			var vSegundos_Restantes =  (VMinutos_Restantes - VMinutos_Inteiros ) * 60
+			var vSegundos_Inteiros = ROUND(vSegundos_Restantes, 0) // Total de Segundos
+			RETURN
+			FORMAT(vMinutos_Inteiros,"00") & "m " & 
+			FORMAT(vSegundos_Inteiros,"00") & "s "
+			```
+		lineageTag: bb0e1247-c7e1-4454-a4f0-5c37adbb34b2
+
+	measure 'Tempo Médio de Atendimento (Macete)' =
+			
+			var vTempo_Total = AVERAGE(fOcorrencias4[Tempo Resposta (s)])
+			//var vDias_Inteiros = INT(vTempo_Total) // Total de Dias
+			var vHoras_Restantes = vTempo_Total * 24
+			var vHoras_Inteiras = INT(vHoras_Restantes) // Total de Horas
+			var vMinutos_Restantes = (vHoras_Restantes - vHoras_Inteiras) * 60
+			var vMinutos_Inteiros = INT(VMinutos_Restantes)// Total de Minutos
+			var vSegundos_Restantes =  (VMinutos_Restantes - VMinutos_Inteiros ) * 60
+			var vSegundos_Inteiros = ROUND(vSegundos_Restantes, 0) // Total de Segundos
+			RETURN
+			VALUE(FORMAT(vMinutos_Inteiros,"00") & FORMAT(vSegundos_Inteiros,"00"))
+		formatString: 00:00
+		lineageTag: 10f0c234-3269-4cf0-b82a-fc67496208f7
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	partition _Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+
