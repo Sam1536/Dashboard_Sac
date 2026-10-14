@@ -1,4 +1,3 @@
-# Dashboard Sac
 
 # 🎧 Dashboard de SAC | Power BI
 
